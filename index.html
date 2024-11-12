@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+
+    <style>
+        #imageContainer{
+            border:2px solid red;
+            height: 500px;
+            width: 500px;
+            margin: auto;
+        }
+        #imageContainer img{
+            width: 500px;
+            height: 500px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="imageContainer">
+        <img src="./images/IMG20220429175701.jpg" alt="">
+        <!-- <img src="./images/IMG20220429175759.jpg" alt="">
+        <img src="./images/IMG20220429175806.jpg" alt="">
+        <img src="./images/IMG20220429175814.jpg" alt="">
+        <img src="./images/IMG20220429175825.jpg" alt=""> -->
+    </div>
+    <div>
+        <button id="previous" >Previous</button>
+        <button id="next">Next</button>
+    </div>
+    
+    <script src="./index.js"></script>
+</body>
+</html>
